@@ -1,25 +1,20 @@
-#include <stdio.h>
+// Online C compiler to run C program online
+#include<stdio.h>
 int main()
 {
-    int a = 5, b = 5, c = 10, result;
-
-    result = (a == b) && (c > b);
-    printf("(a == b) && (c > b) is %d \n", result);
-
-    result = (a == b) && (c < b);
-    printf("(a == b) && (c < b) is %d \n", result);
-
-    result = (a == b) || (c < b);
-    printf("(a == b) || (c < b) is %d \n", result);
-
-    result = (a != b) || (c < b);
-    printf("(a != b) || (c < b) is %d \n", result);
-
-    result = !(a != b);
-    printf("!(a != b) is %d \n", result);
-
-    result = !(a == b);
-    printf("!(a == b) is %d \n", result);
-
+    int a=10,b=20,c=30;
+    printf("%d==%d\n",a,b,c,a==b);
+    printf("%d==%d\n",a,b,c,a==c);
+    printf("%d>%d\n",a,b,c,a>b);
+    printf("%d>%d\n",a,b,c,a>c);
+    printf("%d<%d\n",a,b,c,a<b);
+    printf("%d<%d\n",a,b,c,a<c);
+    printf("%d!=%d\n",a,b,c,a!=b);
+    printf("%d!=%d\n",a,b,c,a!=c);
+    printf("%d<=%d\n",a,b,c,a<=b);
+    printf("%d<=%d\n",a,b,c,a<=c);
+    printf("%d>=%d\n",a,b,c,a>=b);
+    printf("%d>=%d\n",a,b,c,a>=c);
+    
     return 0;
 }
