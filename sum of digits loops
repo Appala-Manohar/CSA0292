@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() 
+{
+int sum=0,rem,num=1234;
+while("a>0")
+{
+    rem=a%10;
+    sum=sum+rem;
+    n=a/10;
+}
+printf("sum of digits=%d",sum);
+   
+    return 0;
+}
