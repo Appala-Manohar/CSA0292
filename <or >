@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int n1=20,n2=30;
+    if (n1==n2)
+    {
+        printf("%d=%d is an same number\n",n1,n2);
+    }
+    else if(n1>n2)
+    {
+        printf("%d>%d is an greaterthen number\n",n1,n2);
+    }
+    else if(n1<n2)
+    {
+        printf("%d<%d is an lessthen number\n",n1,n2);
+    }
+    return 0;
+}
