@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int year=2024,month=3,date=20;
+    if(year%400==0)
+    {
+    printf("%d/%d/%d is an leap year\n",year,month,date);
+}
+else if (year%100==0)
+{
+    printf("%d/%d/%d is an non leap year\n",year,month,date);
+}
+else if(year%4==0)
+{
+    printf("%d/%d/%d is an leap year\n",year,month,date);
+}
+return 0;
+}
