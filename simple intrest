@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int principle,time,rate,si;
+    printf("enter the principle ammount;");
+    scanf("%d",&principle);
+    printf("enter the time(month);");
+    scanf("%d",&time);
+    printf("enter the rate;");
+    scanf("%d",&rate);
+    si=(principle*time*rate/100);
+    printf("the value of si=%d",si);
+    return 0;
+}
