@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int principle,time,rate,ci;
+    printf("enter the principle ammount:");
+    scanf("%d",&principle);
+    printf("enetr the time:");
+    scanf("%d",&time);
+    printf("enter the rate:");
+    scanf("%d",&rate);
+    // to calculate the coumpound intrest
+    ci=principle*(pow((1+rate/100),time));
+    printf("the value of ci=%d",ci);
+    return 0;
+}
