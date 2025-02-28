@@ -1,0 +1,21 @@
+#include<stdio.h>
+float calculateSI (float principle,float time,float rate,char customerType);
+int main()
+{
+    float principle=20000,time=3,rate,si;char customerType='n';
+    si=calculateSI(principle,time,rate,customerType);
+    printf("the simple intrest is %2f",si);
+    return 0;
+}
+float calculateSI(float principle,float time ,float rate,char customerType)
+{
+    if (customerType=='Y'||customerType=='y')
+    {
+        rate=12.0;
+    }
+    else
+    { 
+        rate=10.0;
+}
+return (principle*rate*time)/100;
+}
